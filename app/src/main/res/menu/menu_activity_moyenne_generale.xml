@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_activity_main_refresh"
+        android:icon="@drawable/ic_refresh_24"
+        app:showAsAction="ifRoom"
+        android:title="Actualiser"/>
+    <item
+        android:id="@+id/menu_activity_main_delete"
+        android:icon="@drawable/ic_delete_24"
+        android:title="Supprimer"
+        app:showAsAction="ifRoom"/>
+</menu>
